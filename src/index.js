@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { createLogger } from 'redux-logger'
 import reducer from './reducer/Reducer'
-import App from './App'
+import App from './containers/App'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
 const middleware = [ thunk ]

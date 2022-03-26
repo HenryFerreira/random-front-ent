@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Form from '../src/components/Form'
-import Result from '../src/components/Result'
+import Form from '../components/Form'
+import Result from '../components/Result'
 
 class App extends Component {// component stateful
   render() {
